@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+
+
+
+    <style>
+
+
+ button{
+    margin-top: 20px;
+    background: red;
+
+}
+    </style>
+    <h1 id="tytul">js dzala?</h1>
+
+
+
+
+<input id="perwsza" type="number">
+<input id="druga" type="number">
+<span id="answer">= </span>
+
+ <div class="btn"> <button onclick="pres_me()">pres me</button></div>
+
+</body>
+
+<script>
+//     console.log('js dziala')
+//   let x = document.getElementById('tytul');
+//   x.innerHTML+= "dziala"
+
+
+function pres_me(){
+
+let perwsza = document.getElementById('perwsza').value;
+let druga = document.getElementById('druga').value;
+// console.log(perwsza*druga)
+
+    document.getElementById('answer').innerHTML+=perwsza * druga
+}
+
+
+</script>
+</html>
