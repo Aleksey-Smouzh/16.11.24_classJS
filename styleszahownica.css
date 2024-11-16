@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#wrapp{
+    display: grid;
+    grid-area: auto;
+}
+.kwadrat_bialy{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid black;
+    margin: 1px;
+}
+.kwadrat_czarny{
+    width: 48px;
+    height: 48px;
+    background-color: black;
+    margin: 1px;
+    /* border: 1px solid black; */
+}
+
