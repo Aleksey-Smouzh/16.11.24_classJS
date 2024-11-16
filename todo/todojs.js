@@ -4,6 +4,9 @@ function tisni() {
 
     document.getElementById('list').innerHTML += `<li>` + list + `</li>`
 
-
 }
 tisni()
+
+
+
+
