@@ -1,51 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS</title>
 </head>
+
 <body>
 
 
 
     <style>
+        button {
+            margin-top: 20px;
+            background: red;
 
+        }
 
- button{
-    margin-top: 20px;
-    background: red;
-
+#kwadrat{
+    margin-top: 10%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
 }
+
+
     </style>
     <h1 id="tytul">js dzala?</h1>
 
 
 
 
-<input id="perwsza" type="number">
-<input id="druga" type="number">
-<span id="answer">= </span>
+    <input id="perwsza" type="number">
+    <input id="druga" type="number">
+    <span id="answer">= </span>
 
- <div class="btn"> <button onclick="pres_me()">pres me</button></div>
+    <div class="btn"> <button onclick="pres_me()">pres me</button></div>
+
+
+<div id="kwadrat"></div>
 
 </body>
 
 <script>
-//     console.log('js dziala')
-//   let x = document.getElementById('tytul');
-//   x.innerHTML+= "dziala"
+    //     console.log('js dziala')
+    //   let x = document.getElementById('tytul');
+    //   x.innerHTML+= "dziala"
 
 
-function pres_me(){
+    function pres_me() {
 
-let perwsza = document.getElementById('perwsza').value;
-let druga = document.getElementById('druga').value;
-// console.log(perwsza*druga)
+        let perwsza = document.getElementById('perwsza').value;
+        let druga = document.getElementById('druga').value;
+        // console.log(perwsza*druga)
 
-    document.getElementById('answer').innerHTML+=perwsza * druga
+        document.getElementById('answer').innerHTML += perwsza * druga
+    }
+
+
+
+    let kwadrat = document.getElementById('kwadrat')
+
+for (let i = 0; i<=3; i++) {
+    kwadrat.innerHTML+=`<div id="kwadrat">bla</div>`
+    
 }
 
 
 </script>
+
 </html>
